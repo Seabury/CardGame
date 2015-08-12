@@ -20,7 +20,7 @@ public class DeckOfCards
     // populate deck with Card objects
     
     for (int count = 0; count < deck.length; count++)
-      deck[count] = new Card(count % 13, count / 13, count);
+      deck[count] = new Card(count % 13, count / 13);
 
   } // end DeckOfCards constructor
 
